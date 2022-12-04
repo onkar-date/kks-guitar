@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+    #root {
+        height: 100%;
+    }
+}
+.appWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    color: white;
+    .socialIcon {
+        scale: 1.3;
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+    }
+    .socialIcon:hover {
+        scale: 2;
+    }
+}

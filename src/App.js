@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import "./App.scss";
+import StudentDetails from "./features/students/StudentDetails";
+import StudentList from "./features/students/StudentList";
+import Navbar from "./shared/components/Navbar";
+import { ToastContainer } from "react-toastify";
+import BatchList from "./features/batches/BatchList";
+import { Home } from "./components/Home/Home";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="appWrapper">
+        <Navbar></Navbar>
+        <Routes>
+          <Route path="" element={<Navigate to="/home" />}></Route>
+          <Route path="home" element={<Home />}></Route>
+          <Route path="students" element={<StudentList />}></Route>
+          <Route path="students/details" element={<StudentDetails />}></Route>
+          <Route path="batches" element={<BatchList />}></Route>
+        </Routes>
+        <Footer />
+      </div>
+      <ToastContainer position="bottom-right" autoClose={2000} />
+    </BrowserRouter>
   );
 }
 

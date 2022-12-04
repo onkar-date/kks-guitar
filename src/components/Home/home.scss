@@ -1,0 +1,21 @@
+.jumbotronWrapper {
+    overflow: hidden;
+    height: calc(100vh - 56px);
+    .infoText {
+        position: absolute;
+        top: 5rem;
+        left: 70px;
+        color: white;
+    }
+    .homeImg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbotronWrapper {
+        .homeImg {
+            width: 150%;
+        }
+    }
+}

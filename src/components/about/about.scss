@@ -1,0 +1,19 @@
+.stats {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    li {
+        border-right: 2px solid #fcece1;
+        padding: 0 15px;
+        margin: 0 0 10px 0;
+        flex: 1 1 0;
+    }
+    li.statInfo div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    li:last-of-type {
+        border: none;
+    }
+}
