@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kks-guitar/static/css/main.3b3dcb96.css",
-    "main.js": "/kks-guitar/static/js/main.31316b05.js",
+    "main.css": "/kks-guitar/static/css/main.ca00b6fd.css",
+    "main.js": "/kks-guitar/static/js/main.cec004c1.js",
     "static/media/IMG2.jpg": "/kks-guitar/static/media/IMG2.dcec42bba322f4863dcb.jpg",
     "static/media/testimonialBg1.jpg": "/kks-guitar/static/media/testimonialBg1.777822032125f3309fa0.jpg",
     "static/media/testimonialBg3.jpg": "/kks-guitar/static/media/testimonialBg3.ecc1a0a6c6336b382632.jpg",
@@ -12,13 +12,14 @@
     "static/media/home4.jpg": "/kks-guitar/static/media/home4.09e78c6262c0e2711f7a.jpg",
     "static/media/testimonialBg4.jpg": "/kks-guitar/static/media/testimonialBg4.1e358b9082787fcc63e3.jpg",
     "static/media/testimonialBg5.jpg": "/kks-guitar/static/media/testimonialBg5.c0f296791d664dae6d6b.jpg",
+    "static/media/logo.png": "/kks-guitar/static/media/logo.cafa565ce1d5b7e600ab.png",
     "static/media/testimonialBg.jpg": "/kks-guitar/static/media/testimonialBg.29f4ca60c0a26cfabaaf.jpg",
     "index.html": "/kks-guitar/index.html",
-    "main.3b3dcb96.css.map": "/kks-guitar/static/css/main.3b3dcb96.css.map",
-    "main.31316b05.js.map": "/kks-guitar/static/js/main.31316b05.js.map"
+    "main.ca00b6fd.css.map": "/kks-guitar/static/css/main.ca00b6fd.css.map",
+    "main.cec004c1.js.map": "/kks-guitar/static/js/main.cec004c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b3dcb96.css",
-    "static/js/main.31316b05.js"
+    "static/css/main.ca00b6fd.css",
+    "static/js/main.cec004c1.js"
   ]
 }
