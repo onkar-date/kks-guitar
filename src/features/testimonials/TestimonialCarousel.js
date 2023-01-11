@@ -21,19 +21,6 @@ const TestimonialCarousel = ({ testimonials }) => {
     }
   };
 
-  const testimonialStyle = {
-    position: "absolute",
-    backgroundImage: `url(${testimonialBg5})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    color: "white",
-    filter: "blur(1px)",
-    top: "0",
-    bottom: "0",
-    left: "0",
-    right: "0",
-  };
-
   const getTestimonialUI = () => {
     let data = [];
     let numberOfItemsPerGroup = getNumberOfItemsPerGroup();
@@ -49,7 +36,7 @@ const TestimonialCarousel = ({ testimonials }) => {
               return (
                 <Card className="shadow testimonialCard" key={_.id}>
                   <Card.Body>
-                    <div style={testimonialStyle}></div>
+                    <div></div>
                     <Card.Text className="desc">{_.description}</Card.Text>
                   </Card.Body>
                 </Card>

@@ -26,7 +26,10 @@ const initialState = {
 export const fetchTestimonials = createAsyncThunk(
   "testimonial/fetchAll",
   async () => {
-    const response = await axios.get(`${BASE_URL}/testimonial`);
+    // Mock
+    const url = "https://run.mocky.io/v3/35e90c4a-88cc-4c1c-a52b-8c60e2b7a788";
+    // const url = `${BASE_URL}/testimonial`;
+    const response = await axios.get(url);
     return response.data;
   }
 );

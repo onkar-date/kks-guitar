@@ -26,7 +26,7 @@ function Footer() {
         />
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5 d-flex">
         {ATTRIBUTIONS.map((att, i) => {
           return <div key={i} dangerouslySetInnerHTML={{ __html: att }}></div>;
         })}

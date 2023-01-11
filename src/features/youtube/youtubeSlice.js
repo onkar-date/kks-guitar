@@ -26,7 +26,10 @@ const initialState = {
 export const fetchYoutubeVideos = createAsyncThunk(
   "youtubeVideo/fetchAll",
   async () => {
-    const response = await axios.get(`${BASE_URL}/youtube`);
+    // Mock
+    const url = "https://run.mocky.io/v3/718b43c3-1bb5-468e-863f-6e0fd85798dd";
+    // const url = `${BASE_URL}/youtube`;
+    const response = await axios.get(url);
     return response.data;
   }
 );
